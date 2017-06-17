@@ -1,0 +1,170 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	color: #94a3a8;
+}
+header{
+	min-height: 70px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo {
+    margin: 23px 0 17px 0;
+}
+
+.mainmenu {
+    display: block;
+   	margin-left: 180px;
+}
+
+.mainmenu ul {
+    list-style: none;
+    margin: 0px;
+
+}
+.mainmenu ul li {
+	float: left;
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #01975a;;
+}
+
+.mainmenu ul li:last-child{
+	border-right: none;
+}
+
+.mainmenu ul li:nth-child(){
+	border-right: none;
+}
+
+.mainmenu ul li a {
+	display: block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    padding: 25px 23px; 
+}
+
+.active, .mainmenu ul li a:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background: #01975a;
+	color:white;
+	text-decoration: none; 	
+}
+
+.pslider {
+	font-family: 'Roboto', sans-serif;
+	background:url(images/p-slider.jpg);
+	font-size: 40px;
+    height: 292px;
+    padding-top: 98px;
+    text-align: center;
+    
+    color: white;
+}
+.pslider strong{
+	font-size: 43px;
+}
+
+.slider_arrow{
+	margin-top: 90px;
+}
+
+.slider{
+	margin-top: 23px;
+}
+
+.content{
+	margin-bottom: 132px;
+	margin-top: 60px;
+	color: #ADB8BC;
+	height: 413px;
+}
+
+.content h3{
+	color: #00975A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.meta_data{
+	margin-top: 60px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #E8E8E8;
+
+}
+
+.creative_fields{
+	display: block;
+}
+.creative_fields ul li{
+	list-style: none;
+	padding: 10px 0;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+
+.creative_fields ul li a{
+	color:#606569;
+}
+
+.creative_fields ul li:first-child{
+	border-bottom: none;
+	color: #00975A;
+	padding-top: 25px;
+
+
+}
+
+.creative_fields ul li a:hover{
+	text-decoration: none;
+}
+
+.creative_fields ul li a strong{
+	color: #00975A;
+	font-size: 15px;
+	
+}
+
+.view_live{
+	color: #00975A;
+	padding-top: 42px;
+
+}
+button{
+	width: 160px;
+	height: 52px;
+	background: #ffffff;
+	border: 1px solid #E8E8E8;
+
+}
+
+.rprojects{
+	height: 888px;
+}
+
+.project_text h4 {
+	padding-bottom: 32px;
+	border-bottom: 2px solid #E8E8E8;
+	
+
+} 
+.sample_images{
+	margin-top:39px ;
+
+}
+footer{
+	height: 158px;
+	text-align: center;
+	background-color: #000000;
+	color: white;
+	padding-top: 40px;
+}
+.themeapt{
+	color: #00975A;
+}
